@@ -1,9 +1,37 @@
-body{
-    margin-left: 20vw;
-    margin-right: 20vw;
+:root{
+    --primary-color:   #044b59;
+    --secondary-color: #0796b2;
+    --thirdary-color:  #e0f2f6;
+}
+
+
+
+.main-box{
+    background-color: var(--primary-color);
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.main-box > img, h1, br{
+    display: inline-block;
 }
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 900;
+    color: white;
+    text-align-last: left;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+@media screen {
+    
 }
