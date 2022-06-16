@@ -1,0 +1,45 @@
+:root{
+    --primary-color:   #044b59;
+    --secondary-color: #0796b2;
+    --thirdary-color:  #e0f2f6;
+}
+
+/*
+===============
+    HEADER
+    ZONE
+=============== 
+*/
+
+.main-box{
+    background-color: var(--primary-color);
+    padding-left: 20vw;
+    /* padding-right: 20vw; */
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 4vw;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 0;
+        justify-content: center;
+        display: inline-block;
+    }
+}
